@@ -21,4 +21,8 @@
 ### task mandatory
 
 0. task 0:
+
    - Write a function that sorts an array of integers in ascending order using the [Bubble sort](https://intranet.alxswe.com/rltoken/awhP8BhtkGi-lwmMc2-KAw "Bubble sort") algorithm
+
+1. Task 1:
+   - Write a function that sorts a doubly linked list of integers in ascending order using the [Insertion sort](https://intranet.alxswe.com/rltoken/GocxRKbPdsmERXeOHMCO2w "Insertion sort") algorithm
