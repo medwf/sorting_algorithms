@@ -40,5 +40,10 @@
     for i start 0 to size - 1 step by 1
         for j start at i + 1 to size step by 1
             if array i > array j
+                take the small number.
                 swap and print array
 ```
+
+- task 0: all good.
+- task 1: fix betty.
+- task 2: fix code, i have to take the smaller number, after that swap value.
