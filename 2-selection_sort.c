@@ -8,7 +8,7 @@
  */
 void selection_sort(int *array, size_t size)
 {
-	size_t i, j;
+	size_t i, j, is_swpped;
 	int sw;
 
 	if (!array || size == 1)
@@ -16,6 +16,7 @@ void selection_sort(int *array, size_t size)
 
 	for (i = 0; i < size - 1; i++)
 	{
+		is_swpped = 0;
 		for (j = i + 1; j < size; j++)
 		{
 			if (array[i] > array[j])
@@ -23,8 +24,10 @@ void selection_sort(int *array, size_t size)
 				sw = array[i];
 				array[i] = array[j];
 				array[j] = sw;
-				print_array(array, size);
+				is_swpped = 1;
 			}
 		}
+		if (is_swpped)
+			print_array(array, size);
 	}
 }
