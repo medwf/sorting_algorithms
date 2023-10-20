@@ -9,7 +9,7 @@
 void shell_sort(int *array, size_t size)
 {
 	size_t i, j, g = 1;
-	int sw, swapped;
+	int sw;
 
 	if (size < 2)
 		return;
@@ -22,7 +22,6 @@ void shell_sort(int *array, size_t size)
 	/*the last gap is 1*/
 	while (g >= 1)
 	{
-		swapped = 0;
 		for (i = g; i < size; i++)
 		{
 			/* sw take value at idx i, to swap*/
@@ -31,13 +30,11 @@ void shell_sort(int *array, size_t size)
 			{
 				/*if value sw last than array i - g than take value*/
 				array[j] = array[j - g];
-				swapped = 1;
 			}
 			/*array of j take smaller number in list*/
 			array[j] = sw;
 		}
-		if (swapped)
-			print_array(array, size);
+		print_array(array, size);
 		/*printf("- %ld\n", g);*/
 		g /= 3; /* equale to g = g * 3 - 1*/
 	}
