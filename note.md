@@ -47,3 +47,34 @@
 - task 0: all good.
 - task 1: fix betty.
 - task 2: fix code, i have to take the smaller number, after that swap value.
+
+# 2023-20-10
+
+- add task 3:
+- pseudocode
+
+```
+     choose pivet is muddle number ... and divid list / 2 each time ==> recursion
+   QS (A as array, start as int, end as int)
+   {
+	   if (start < end)
+		   privot = partition(A, start, end)
+		   Quicksort(A, start, privot - 1)
+		   Quicksort(A, privot + 1, end)
+   }
+
+	partition(A, start, end)
+	{
+		pivot A[end]
+		i = start - 1
+
+		loop j = start to end
+			if (A[j] < pivot) then
+                i++
+                if i < j
+				    swap (A[j], A[i]), print
+        if array i > pivot
+		    swap(pivot, A[i]), print
+		return i
+	}
+```

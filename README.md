@@ -29,4 +29,8 @@
    - Write a function that sorts a doubly linked list of integers in ascending order using the [Insertion sort](https://intranet.alxswe.com/rltoken/GocxRKbPdsmERXeOHMCO2w "Insertion sort") algorithm
 
 2. Task 2:
+
    - Write a function that sorts an array of integers in ascending order using the [Selection sort](https://intranet.alxswe.com/rltoken/SEbg0fBEraioQcl-igvUSw "Selection sort") algorithm
+
+3. Task 3:
+   - Write a function that sorts an array of integers in ascending order using the [Quick sort](https://intranet.alxswe.com/rltoken/_pBTrH0Xyo4BRmQn4CtnMg "Quick sort") algorithm
