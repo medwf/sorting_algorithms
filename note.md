@@ -78,3 +78,23 @@
 		return i
 	}
 ```
+
+- task 100:
+- pseudocode
+
+```
+always if size < 2 return
+
+generate the knith sequace by using n+1 = n * 3 + 1 // n+1 mean next generete gap.
+back i use this by math,
+    n = n * 3 + 1 => (n - 1) = n * 3 => (n - 1)/3 = n => n-1 = (n - 1)/3,  n-1: mean prev one
+// list of generate gap [1, 4, 20, 13, 40, 121, 363 ... ]
+
+while gap great than 0
+    for i equal to gap and i last than size steep by one
+        take index array i by sw(variable).
+        for j equal to  i and j great or equal to gap and sw last than array j - gap steep j equal to j - g
+            index j take value from array j - g
+        indx j take value from sw
+    steep by gap equal to  gap -  1 divied by  3
+```

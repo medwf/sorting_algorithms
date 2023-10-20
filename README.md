@@ -34,3 +34,7 @@
 
 3. Task 3:
    - Write a function that sorts an array of integers in ascending order using the [Quick sort](https://intranet.alxswe.com/rltoken/_pBTrH0Xyo4BRmQn4CtnMg "Quick sort") algorithm
+
+# task advanced
+
+100. Write a function that sorts an array of integers in ascending order using the [Shell sort](https://intranet.alxswe.com/rltoken/FdpP4Qin3iDAaz1kuPD2Kg "Shell sort") algorithm, using the `Knuth sequence`
