@@ -44,3 +44,7 @@
 101. task 101:
 
 - Write a function that sorts a doubly linked list of integers in ascending order using the [Cocktail shaker sort](https://intranet.alxswe.com/rltoken/bwa4mHfUbbWTB8J2OIHvpA "Cocktail shaker sort") algorithm
+
+102. task 102:
+
+- Write a function that sorts an array of integers in ascending order using the Counting sort algorithm
