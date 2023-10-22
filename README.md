@@ -37,4 +37,10 @@
 
 # task advanced
 
-100. Write a function that sorts an array of integers in ascending order using the [Shell sort](https://intranet.alxswe.com/rltoken/FdpP4Qin3iDAaz1kuPD2Kg "Shell sort") algorithm, using the `Knuth sequence`
+100. task 100:
+
+- Write a function that sorts an array of integers in ascending order using the [Shell sort](https://intranet.alxswe.com/rltoken/FdpP4Qin3iDAaz1kuPD2Kg "Shell sort") algorithm, using the `Knuth sequence`
+
+101. task 101:
+
+- Write a function that sorts a doubly linked list of integers in ascending order using the [Cocktail shaker sort](https://intranet.alxswe.com/rltoken/bwa4mHfUbbWTB8J2OIHvpA "Cocktail shaker sort") algorithm

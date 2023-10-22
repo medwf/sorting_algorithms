@@ -98,3 +98,23 @@ while gap great than 0
         indx j take value from sw
     steep by gap equal to  gap -  1 divied by  3
 ```
+
+# 2023-22-10
+
+- task 101:
+- pseudocode:
+
+```
+if no node or just one return
+
+while (True)
+{
+    loop swap element using bubble sort, print
+
+    if no swap return ...
+
+    loop swap element using bubnle sort inverse, print
+
+    if no swap return
+}
+```
