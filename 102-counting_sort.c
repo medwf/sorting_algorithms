@@ -36,7 +36,7 @@ void counting_sort(int *array, size_t size)
 	for (i = 0; i < size; i++)
 	{
 		value = array[i];
-		idx = idxarr[value];
+		idx = idxarr[value], idxarr[value]--;
 		outarr[idx - 1] = value;
 	}
 	for (i = 0; i < size; i++)
