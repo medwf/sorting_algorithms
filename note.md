@@ -101,7 +101,7 @@ while gap great than 0
 
 # 2023-22-10
 
-- task 101:
+- task 101 `cocktail sort`:
 - pseudocode:
 
 ```
@@ -119,4 +119,8 @@ while (True)
 }
 ```
 
--add task 102:
+-add task `counting sort`:
+
+# 2023-23-10
+
+-add task 103 `merge sort`

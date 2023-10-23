@@ -48,3 +48,7 @@
 102. task 102:
 
 - Write a function that sorts an array of integers in ascending order using the Counting sort algorithm
+
+103. task:
+
+- Write a function that sorts an array of integers in ascending order using the Merge sort algorithm
