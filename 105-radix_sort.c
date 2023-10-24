@@ -29,8 +29,7 @@ void count_sort(int *array, size_t size, int digit)
 			if (buckets[(array[i] / digit) % 10][_j] == -1)
 			{
 				buckets[(array[i] / digit) % 10][_j] = array[i];
-				break;
-			}
+				break; }
 		}
 	}
 	i = 0;
