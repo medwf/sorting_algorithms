@@ -16,15 +16,15 @@ void count_sort(int *array, size_t size, int digit)
 		return;
 	for (i = 0; i < 10; i++)
 	{
-		buckets[i] = malloc(sizeof(int) * 20);
+		buckets[i] = malloc(sizeof(int) * 100);
 		if (!buckets[i])
 			return;
-		for (j = 0; j < 20; j++)
+		for (j = 0; j < 100; j++)
 			buckets[i][j] = -1;
 	}
 	for (i = 0; i < size; i++)
 	{
-		for (_j = 0; _j < 20; _j++)
+		for (_j = 0; _j < 100; _j++)
 		{
 			if (buckets[(array[i] / digit) % 10][_j] == -1)
 			{
@@ -36,7 +36,7 @@ void count_sort(int *array, size_t size, int digit)
 	i = 0;
 	for (j = 0; j < 10; j++)
 	{
-		for (_j = 0; _j < 20; _j++)
+		for (_j = 0; _j < 100; _j++)
 		{
 			if (i == size)
 			{
