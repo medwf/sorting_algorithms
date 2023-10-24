@@ -9,7 +9,7 @@
 void count_sort(int *array, size_t size, int digit)
 {
 	size_t i;
-	int **buckets = NULL, j, _j;
+	int **buckets = NULL, j, a, _j;
 
 	buckets = malloc(sizeof(int *) * 10);
 	if (!buckets)
@@ -40,10 +40,11 @@ void count_sort(int *array, size_t size, int digit)
 		{
 			if (i == size)
 			{
-				for (j = 0; j < 10; j++)
-					free(buckets[j]);
+				for (a = 0; a < 10; a++)
+					free(buckets[a]);
 				free(buckets);
-				return; }
+				return;
+			}
 			if (buckets[j][_j] != -1)
 				array[i] = buckets[j][_j], i++;
 		}
